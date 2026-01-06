@@ -10,7 +10,7 @@ function HomePage() {
             id: 1,
             nome: 'K-Swiss V8 - Masculino',
             image: '/public/tenis-p.jpg',
-            price: 200,
+            price: 200, 
             discount: 100
         },
         {
