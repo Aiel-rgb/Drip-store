@@ -1,7 +1,7 @@
 import Logo from "./Logo";
 
-function Footer () {
-    return(
+function Footer() {
+    return (
         <footer className="bg-dark-gray text-white py-12">
             <div className="max-w-[1440px] mx-auto px-8">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-32 mb-8">
@@ -13,9 +13,9 @@ function Footer () {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequatur, enim sed similique, voluptatum distinctio quia dolor corrupti iste, recusandae fugit eos! Ducimus atque hic, iusto consequatur explicabo quia animi!
                         </p>
                         <div className="flex gap-4">
-                            <a href="#" className="hover:opacity-80"> <img src="../public/assets/facebook.svg" className="w-[24px] h-[24px]"/></a>
-                            <a href="#" className="hover:opacity-80"> <img src="../public/assets/instagram.svg" className="w-[24px] h-[24px]"/></a>
-                            <a href="#" className="hover:opacity-80"> <img src="../public/assets/twitter.svg" className="w-[24px] h-[24px]"/></a>
+                            <a href="#" className="hover:opacity-80"> <img src="/assets/facebook.svg" className="w-[24px] h-[24px]" /></a>
+                            <a href="#" className="hover:opacity-80"> <img src="/assets/instagram.svg" className="w-[24px] h-[24px]" /></a>
+                            <a href="#" className="hover:opacity-80"> <img src="/assets/twitter.svg" className="w-[24px] h-[24px]" /></a>
                         </div>
                     </div>
                     <div>
@@ -45,7 +45,7 @@ function Footer () {
                         <p className="text-sm mb-2">(85) 3061-3411</p>
                     </div>
                 </div>
-                <hr className="border-dark-gray-2 my-8"/>
+                <hr className="border-dark-gray-2 my-8" />
                 <div className="text-center text-sm text-light-gray">
                     <p>&copy; 2022 Digital College</p>
                 </div>

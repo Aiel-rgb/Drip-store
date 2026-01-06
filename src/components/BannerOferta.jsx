@@ -2,10 +2,10 @@ function BannerOferta() {
     return (
         <div className="rounded-lg mb-12 relative overflow-hidden transition-colors duration-500 bg-white">
             <div className="h-[681px] grid grid-cols-2 gap-8 items-center px-24">
-                <img 
-                src="../public/tenis-oferta.png" 
-                alt="tenis-oferta" 
-                className="w-[900px] max-w-none h-[600px]"
+                <img
+                    src="/public/tenis-oferta.png"
+                    alt="tenis-oferta"
+                    className="w-[900px] max-w-none h-[600px]"
                 />
                 <div>
                     <p className="text-primary font-bold mb-4">Oferta especial</p>

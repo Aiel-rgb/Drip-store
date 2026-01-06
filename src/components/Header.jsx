@@ -1,7 +1,7 @@
 import Logo from "./Logo"
 
-function Header () {
-    return(
+function Header() {
+    return (
         <header className="bg-white shadow-sm">
             <div className="max-w-[1440px] mx-auto px-8 py-6">
                 <div className="flex items-center justify-between gap-8 mb-6">
@@ -9,14 +9,14 @@ function Header () {
                     <div className="flex-1 max-2-[560px]">
                         <div className="relative">
                             <input
-                            type="text"
-                            placeholder="Pesquisar produto"
-                            className="w-full h-[60px] px-4 bg-light-gray-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+                                type="text"
+                                placeholder="Pesquisar produto"
+                                className="w-full h-[60px] px-4 bg-light-gray-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                             />
                             <button className="absolute right-4 top-1/2 -translate-y-1/2">
-                                <img 
-                                className="w-[24px] h-[24px]"
-                                src="../public/assets/icons8-pesquisar.svg"
+                                <img
+                                    className="w-[24px] h-[24px]"
+                                    src="/assets/icons8-pesquisar.svg"
                                 />
                             </button>
                         </div>
@@ -28,7 +28,7 @@ function Header () {
                         </button>
                     </div>
                     <button className="relative">
-                        <img src="../public/assets/mini-cart.svg" />
+                        <img src="/assets/mini-cart.svg" />
                         <span className="absolute -top-2 -right-2 bg-error text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">
                             2
                         </span>
