@@ -1,8 +1,8 @@
-function Section ({ title, titleAlign = 'left', link, children}){
-    return(
+function Section({ title, titleAlign = 'left', link, children }) {
+    return (
         <section className="mb-12">
             <div className={`flex items-center justify-between mb-2 p-8 `}>
-                <h2 className={`text-2xl font-bold text-dark-gray-2`}>
+                <h2 className={`text-2xl font-bold text-dark-gray-2 ${titleAlign === 'center' ? 'text-center w-full' : 'text-left'}`}>
                     {title}
                 </h2>
                 {link && titleAlign !== 'center' && (

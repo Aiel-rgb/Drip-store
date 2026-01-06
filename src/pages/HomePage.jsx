@@ -108,7 +108,41 @@ function HomePage() {
                     </div>
                 </div>
             </Section>
-            <Section title="Coeleção em destaque" titleAlign="center"/>
+            <Section title="Coleção em destaque" titleAlign="center" />
+            <div className="flex items-center justify-center">
+                <ul className="flex flex-row gap-12 mb-8 p-8">
+                    <li className="flex flex-col items-center gap-2">
+                        <a href="#" className="w-24 h-24 rounded-full bg-light-gray-3 flex items-center justify-center hover:bg-gray-200 transition-colors">
+                            <img src="../public/assets/roupa.svg" alt="roupa" className="w-10 h-10" />
+                        </a>
+                        <span className="text-dark-gray-2 text-sm">Camisetas</span>
+                    </li>
+                    <li className="flex flex-col items-center gap-2">
+                        <a href="#" className="w-24 h-24 rounded-full bg-light-gray-3 flex items-center justify-center hover:bg-gray-200 transition-colors">
+                            <img src="../public/assets/calca.svg" alt="calça" className="w-10 h-10" />
+                        </a>
+                        <span className="text-dark-gray-2 text-sm">Calças</span>
+                    </li>
+                    <li className="flex flex-col items-center gap-2">
+                        <a href="#" className="w-24 h-24 rounded-full bg-light-gray-3 flex items-center justify-center hover:bg-gray-200 transition-colors">
+                            <img src="../public/assets/bone.svg" alt="cap" className="w-10 h-10" />
+                        </a>
+                        <span className="text-dark-gray-2 text-sm">Bonés</span>
+                    </li>
+                    <li className="flex flex-col items-center gap-2">
+                        <a href="#" className="w-24 h-24 rounded-full bg-light-gray-3 flex items-center justify-center hover:bg-gray-200 transition-colors">
+                            <img src="../public/assets/fone.svg" alt="fone" className="w-10 h-10 hover:text-primary transition-colors" />
+                        </a>
+                        <span className="text-dark-gray-2 text-sm">Headphones</span>
+                    </li>
+                    <li className="flex flex-col items-center gap-2">
+                        <a href="#" className="w-24 h-24 rounded-full bg-light-gray-3 flex items-center justify-center hover:bg-gray-200 transition-colors">
+                            <img src="../public/assets/sapato.svg" alt="sapato" className="w-10 h-10" />
+                        </a>
+                        <span className="text-dark-gray-2 text-sm">Tênis</span>
+                    </li>
+                </ul>
+            </div>
         </div>
     )
 }
