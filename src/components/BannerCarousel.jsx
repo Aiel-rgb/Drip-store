@@ -13,7 +13,7 @@ const slides = [
     {
         id: 2,
         tag: 'Lançamento exclusivo',
-        title: <>Nova Coleção<br />Air Max 2024 💙</>,
+        title: <>Nova Coleção<br />Air Max 2024 ❤️</>,
         description: 'Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.',
         image: '/public/tenis-nike-3.svg',
         bgColor: 'bg-red-200',
@@ -42,7 +42,6 @@ const slides = [
 function BannerCarousel() {
     const [currentSlide, setCurrentSlide] = useState(0);
 
-    // Auto-play: muda slide a cada 5 segundos
     useEffect(() => {
         const timer = setInterval(() => {
             setCurrentSlide((prev) => (prev + 1) % slides.length);
@@ -96,7 +95,6 @@ function BannerCarousel() {
                 </div>
             </div>
 
-            {/* Setas de navegação */}
             <button
                 onClick={prevSlide}
                 className="absolute left-6 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-3 rounded-full shadow-lg transition"
@@ -114,7 +112,6 @@ function BannerCarousel() {
                 </svg>
             </button>
 
-            {/* Indicadores (bolinhas) */}
             <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2">
                 {slides.map((_, index) => (
                     <button
