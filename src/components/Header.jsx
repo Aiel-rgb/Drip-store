@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 import Logo from "./Logo"
 
 function Header() {
@@ -35,10 +36,47 @@ function Header() {
                     </button>
                 </div>
                 <nav className="flex gap-8">
-                    <a href="./pages/HomePage" className="text-dark-gray-2 font-medium border-b-2 border-primary pb-2"> Home </a>
-                    <a href="/produtos" className="text-light-gray hover:text-dark-gray-2 pb-2"> Produtos </a>
-                    <a href="/categorias" className="text-light-gray hover:text-dark-gray-2 pb-2"> Categorias </a>
-                    <a href="/meus-pedidos" className="text-light-gray hover:text-dark-gray-2 pb-2"> Meus pedidos </a>
+                    <NavLink
+                        to="/"
+                        end
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-primary font-bold border-b-2 border-primary pb-2"
+                                : "text-dark-gray-2 hover:text-primary pb-2"
+                        }
+                    >
+                        Home
+                    </NavLink>
+                    <NavLink
+                        to="/produtos"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-primary font-bold border-b-2 border-primary pb-2"
+                                : "text-dark-gray-2 hover:text-primary pb-2"
+                        }
+                    >
+                        Produtos
+                    </NavLink>
+                    <NavLink
+                        to="/categorias"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-primary font-bold border-b-2 border-primary pb-2"
+                                : "text-dark-gray-2 hover:text-primary pb-2"
+                        }
+                    >
+                        Categorias
+                    </NavLink>
+                    <NavLink
+                        to="/meus-pedidos"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-primary font-bold border-b-2 border-primary pb-2"
+                                : "text-dark-gray-2 hover:text-primary pb-2"
+                        }
+                    >
+                        Meus pedidos
+                    </NavLink>
                 </nav>
             </div>
         </header>

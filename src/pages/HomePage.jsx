@@ -10,7 +10,7 @@ function HomePage() {
             id: 1,
             nome: 'K-Swiss V8 - Masculino',
             image: '/public/tenis-p.jpg',
-            price: 200, 
+            price: 200,
             discount: 100
         },
         {
@@ -148,7 +148,7 @@ function HomePage() {
                 </ul>
             </div>
 
-            <Section title="Produtos em alta" titleAlign="left" link="Ver todos →">
+            <Section title="Produtos em alta" titleAlign="left" link={{ text: "Ver todos →", href: "/produtos" }}>
                 <div className="px-8">
                     <ProdutoLista produtos={produtosEmAlta} />
                 </div>

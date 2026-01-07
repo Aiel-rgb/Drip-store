@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Section({ title, titleAlign = 'left', link, children }) {
     return (
         <section className="mb-12">
@@ -6,9 +8,9 @@ function Section({ title, titleAlign = 'left', link, children }) {
                     {title}
                 </h2>
                 {link && titleAlign !== 'center' && (
-                    <a href={link.href} className="text-primary text-lg hover:underline">
+                    <Link to={link.href} className="text-primary text-lg hover:underline">
                         {link.text}
-                    </a>
+                    </Link>
                 )}
             </div>
             {children}
