@@ -5,84 +5,84 @@ const produtosEmAlta = [
     {
         id: 1,
         nome: 'K-Swiss V8 - Masculino',
-        image: '/public/tenis-p.jpg',
+        image: '/tenis-p.jpg',
         price: 200,
         discount: 100
     },
     {
         id: 2,
         nome: 'K-Swiss V8 - Masculino',
-        image: '/public/tenis-p.jpg',
+        image: '/tenis-p.jpg',
         price: 200,
         discount: 100
     },
     {
         id: 3,
         nome: 'K-Swiss V8 - Masculino',
-        image: '/public/tenis-p.jpg',
+        image: '/tenis-p.jpg',
         price: 200,
         discount: 100
     },
     {
         id: 4,
         nome: 'K-Swiss V8 - Masculino',
-        image: '/public/tenis-p.jpg',
+        image: '/tenis-p.jpg',
         price: 200,
         discount: 100
     },
     {
         id: 5,
         nome: 'K-Swiss V8 - Masculino',
-        image: '/public/tenis-p.jpg',
+        image: '/tenis-p.jpg',
         price: 200,
         discount: 100
     },
     {
         id: 6,
         nome: 'K-Swiss V8 - Masculino',
-        image: '/public/tenis-p.jpg',
+        image: '/tenis-p.jpg',
         price: 200,
         discount: 100
     },
     {
         id: 7,
         nome: 'K-Swiss V8 - Masculino',
-        image: '/public/tenis-p.jpg',
+        image: '/tenis-p.jpg',
         price: 200,
         discount: 100
     },
     {
         id: 8,
         nome: 'K-Swiss V8 - Masculino',
-        image: '/public/tenis-p.jpg',
+        image: '/tenis-p.jpg',
         price: 200,
         discount: 100
     },
     {
         id: 9,
         nome: 'K-Swiss V8 - Masculino',
-        image: '/public/tenis-p.jpg',
+        image: '/tenis-p.jpg',
         price: 200,
         discount: 100
     },
     {
         id: 10,
         nome: 'K-Swiss V8 - Masculino',
-        image: '/public/tenis-p.jpg',
+        image: '/tenis-p.jpg',
         price: 200,
         discount: 100
     },
     {
         id: 11,
         nome: 'K-Swiss V8 - Masculino',
-        image: '/public/tenis-p.jpg',
+        image: '/tenis-p.jpg',
         price: 200,
         discount: 100
     },
     {
         id: 12,
         nome: 'K-Swiss V8 - Masculino',
-        image: '/public/tenis-p.jpg',
+        image: '/tenis-p.jpg',
         price: 200,
         discount: 100
     }

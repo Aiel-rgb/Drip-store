@@ -9,56 +9,56 @@ function HomePage() {
         {
             id: 1,
             nome: 'K-Swiss V8 - Masculino',
-            image: '/public/tenis-p.jpg',
+            image: '/tenis-p.jpg',
             price: 200,
             discount: 100
         },
         {
             id: 2,
             nome: 'K-Swiss V8 - Masculino',
-            image: '/public/tenis-p.jpg',
+            image: '/tenis-p.jpg',
             price: 200,
             discount: 100
         },
         {
             id: 3,
             nome: 'K-Swiss V8 - Masculino',
-            image: '/public/tenis-p.jpg',
+            image: '/tenis-p.jpg',
             price: 200,
             discount: 100
         },
         {
             id: 4,
             nome: 'K-Swiss V8 - Masculino',
-            image: '/public/tenis-p.jpg',
+            image: '/tenis-p.jpg',
             price: 200,
             discount: 100
         },
         {
             id: 5,
             nome: 'K-Swiss V8 - Masculino',
-            image: '/public/tenis-p.jpg',
+            image: '/tenis-p.jpg',
             price: 200,
             discount: 100
         },
         {
             id: 6,
             nome: 'K-Swiss V8 - Masculino',
-            image: '/public/tenis-p.jpg',
+            image: '/tenis-p.jpg',
             price: 200,
             discount: 100
         },
         {
             id: 7,
             nome: 'K-Swiss V8 - Masculino',
-            image: '/public/tenis-p.jpg',
+            image: '/tenis-p.jpg',
             price: 200,
             discount: 100
         },
         {
             id: 8,
             nome: 'K-Swiss V8 - Masculino',
-            image: '/public/tenis-p.jpg',
+            image: '/tenis-p.jpg',
             price: 200,
             discount: 100
         }
@@ -72,7 +72,7 @@ function HomePage() {
             <Section title="Coleções em destaque" titleAlign="left">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-8">
                     <div className="relative h-[251px] rounded-lg overflow-hidden">
-                        <img src="/public/collection-1.png" alt="Novo drop Supreme" className="w-full h-full object-cover" />
+                        <img src="/collection-1.png" alt="Novo drop Supreme" className="w-full h-full object-cover" />
                         <div className="absolute top-6 left-6">
                             <span className="bg-warning text-dark-gray-2 px-3 py-1 rounded-full text-sm font-bold">
                                 30% OFF
@@ -86,7 +86,7 @@ function HomePage() {
                     </div>
 
                     <div className="relative h-[251px] rounded-lg overflow-hidden">
-                        <img src="/public/collection-2.png" alt="Coleção Adidas" className="w-full h-full object-cover" />
+                        <img src="/collection-2.png" alt="Coleção Adidas" className="w-full h-full object-cover" />
                         <div className="absolute top-6 left-6">
                             <span className="bg-warning text-dark-gray-2 px-3 py-1 rounded-full text-sm font-bold">30% OFF</span>
                         </div>
@@ -98,7 +98,7 @@ function HomePage() {
                     </div>
 
                     <div className="relative h-[251px] rounded-lg overflow-hidden">
-                        <img src="/public/collection-3.png" alt="Coleção Adidas" className="w-full h-full object-cover" />
+                        <img src="/collection-3.png" alt="Coleção Adidas" className="w-full h-full object-cover" />
                         <div className="absolute top-6 left-6">
                             <span className="bg-warning text-dark-gray-2 px-3 py-1 rounded-full text-sm font-bold">30% OFF</span>
                         </div>
