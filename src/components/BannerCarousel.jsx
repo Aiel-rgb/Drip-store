@@ -65,29 +65,29 @@ function BannerCarousel() {
 
     return (
         <div className={`${slide.bgColor} rounded-lg mb-12 relative overflow-hidden transition-colors duration-500`}>
-            <div className="h-[681px] grid grid-cols-2 gap-8 items-center px-24">
+            <div className="h-auto md:h-[681px] grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-6 py-12 md:px-24 md:py-0">
 
-                <div className="z-10">
-                    <p className={`${slide.tagColor} text-base font-bold mb-4`}>
+                <div className="z-10 order-1 md:order-none text-center md:text-left">
+                    <p className={`${slide.tagColor} text-sm md:text-base font-bold mb-4`}>
                         {slide.tag}
                     </p>
-                    <h1 className="text-7xl font-extrabold text-dark-gray mb-6 leading-[1.1]">
+                    <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-dark-gray mb-6 leading-[1.1]">
                         {slide.title}
                     </h1>
-                    <p className="text-dark-gray-2 mb-10 text-lg leading-relaxed">
+                    <p className="text-dark-gray-2 mb-10 text-base md:text-lg leading-relaxed">
                         {slide.description}
                     </p>
-                    <button className="bg-primary text-white px-14 py-4 rounded-lg font-bold text-base hover:bg-tertiary transition">
+                    <button className="bg-primary text-white px-10 md:px-14 py-3 md:py-4 rounded-lg font-bold text-base hover:bg-tertiary transition w-full md:w-auto">
                         Ver Ofertas
                     </button>
                 </div>
 
-                <div className="flex items-center justify-center relative h-full">
+                <div className="flex items-center justify-center relative h-[300px] md:h-full order-2 md:order-none">
                     <img
                         key={slide.id}
                         src={slide.image}
                         alt="Tênis Nike"
-                        className="w-[900px] max-w-none h-[600px] object-contain animate-fade-in-up [animation-delay:0s] hover:animate-float"
+                        className="w-full h-full max-h-[300px] md:max-h-full object-contain animate-fade-in-up [animation-delay:0s] hover:animate-float md:w-[900px] md:max-w-none md:scale-100"
                         style={{
                             animation: 'fadeInUp 0.6s ease-out forwards, float 3s ease-in-out 0.6s infinite'
                         }}
@@ -97,7 +97,7 @@ function BannerCarousel() {
 
             <button
                 onClick={prevSlide}
-                className="absolute left-6 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-3 rounded-full shadow-lg transition"
+                className="hidden md:block absolute left-6 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-3 rounded-full shadow-lg transition"
             >
                 <svg className="w-6 h-6 text-dark-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -105,7 +105,7 @@ function BannerCarousel() {
             </button>
             <button
                 onClick={nextSlide}
-                className="absolute right-6 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-3 rounded-full shadow-lg transition"
+                className="hidden md:block absolute right-6 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-3 rounded-full shadow-lg transition"
             >
                 <svg className="w-6 h-6 text-dark-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

@@ -1,3 +1,4 @@
+
 function Logo({ variant = 'header' }) {
     const logos = {
         header: '/assets/logo-header.svg',
@@ -6,11 +7,11 @@ function Logo({ variant = 'header' }) {
     const logo = logos[variant]
 
     return (
-        <img
-            src={logo}
-            alt="Logo Digital-Store"
-            className="w-[240px]"
-        />
+            <img
+                src={logo}
+                alt="Logo Digital-Store"
+                className="w-[240px] sm:w-[280px] md:w-[320px] lg:w-[360px]"
+            />
     )
 }
 
